@@ -1,0 +1,15 @@
+{
+	"components": [
+		{
+			"id": "test3podplugin",
+			"type": "VIEW_PLUGIN",
+			"allowMultipleInstances": true,
+			"name": "sap.custom.plugin.testplugins.test3podplugin.test3podplugin",
+			"propertyEditor": "sap.custom.plugin.testplugins.test3podplugin.test3podplugin.builder.PropertyEditor",
+			"i18n": "sap.custom.plugin.testplugins.test3podplugin.test3podplugin.i18n.i18n",
+            "productionProcessEnabled": false,
+           "productionProcessTitle": "test3podplugin",
+			"supportedPodTypes": ["WORK_CENTER","OPERATION","ORDER","OTHER","MONITOR"]
+		}   
+	]
+}
